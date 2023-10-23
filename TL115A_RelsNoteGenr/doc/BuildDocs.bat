@@ -1,0 +1,1 @@
+ronn --html --manual="EA4 Release Notes Generator" --organization="Nxtr Automotive" RelsNoteGenr.1.ronn

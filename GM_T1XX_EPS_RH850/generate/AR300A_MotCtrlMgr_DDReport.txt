@@ -1,0 +1,148 @@
+Verification of AR300A_MotCtrlMgr_DataDict
+06-Oct-2016 11:29:37
+Tool Release:  2.30.0
+
+
+
+--------------------------------
+DATA CLASS VIOLATION CHECKS
+--------------------------------
+(errors: 0)
+
+---------------------------------------------------------------
+FDD DEFINITION VARIABLE:	<Type><Number><Variant>  e.g. SF099A
+--------------------------------------------------------------
+(variable: 1, errors: 0)
+
+----------------------------
+DATA DICTIONARY FILENAME:
+----------------------------
+Missing Model 	Unable to find model for comparison to data dictionary.
+(errors:  1)
+
+------------------------------------------------------------
+RUNNABLE:	<ShoName>Per<Number>  or  <ShoName>Init<Number>
+------------------------------------------------------------
+(variables: 2, errors: 0)
+
+--------------------------------------
+SrvRunnable:	<TriggerName>
+--------------------------------------
+(variables: 0, errors: 0)
+
+-----------------------
+Client:	<TriggerName>
+-------------------------
+(variables: 2, errors: 0)
+
+----------------------------
+INPUT SIGNALS:	<Identity>
+----------------------------
+AdcDiagcEndPtrOutp          	Cannot match name to list of known Nxtr signals.
+AdcDiagcStrtPtrOutp         	Cannot match name to list of known Nxtr signals.
+LoopCntr2MilliSec           	Cannot match name to list of known Nxtr signals.
+MotAgElecDlyRpl             	Cannot match name to list of known Nxtr signals.
+MotCurrAdcVlyAAdcFaild      	Cannot match name to list of known Nxtr signals.
+MotCurrAdcVlyBAdcFaild      	Cannot match name to list of known Nxtr signals.
+MotCurrAdcVlyCAdcFaild      	Cannot match name to list of known Nxtr signals.
+MotCurrAdcVlyDAdcFaild      	Cannot match name to list of known Nxtr signals.
+MotCurrAdcVlyEAdcFaild      	Cannot match name to list of known Nxtr signals.
+MotCurrAdcVlyFAdcFaild      	Cannot match name to list of known Nxtr signals.
+MotCurrQaxToMotTqGain       	Cannot match name to list of known Nxtr signals.
+MotTqRplCoggOrder1Mgn       	Cannot match name to list of known Nxtr signals.
+MotTqRplCoggOrder1Pha       	Cannot match name to list of known Nxtr signals.
+MotTqRplCoggOrder2Mgn       	Cannot match name to list of known Nxtr signals.
+MotTqRplCoggOrder2Pha       	Cannot match name to list of known Nxtr signals.
+MotTqRplCoggOrder3Mgn       	Cannot match name to list of known Nxtr signals.
+MotTqRplCoggOrder3Pha       	Cannot match name to list of known Nxtr signals.
+(variables: 48, errors: 17)
+
+-----------------------------
+OUTPUT SIGNALS:	<Identity>
+-----------------------------
+Adc0ScanGroup2Ref0          	Cannot match name to list of known Nxtr signals.
+Adc0ScanGroup2Ref1          	Cannot match name to list of known Nxtr signals.
+Adc0ScanGroup3Ref0          	Cannot match name to list of known Nxtr signals.
+Adc0ScanGroup3Ref1          	Cannot match name to list of known Nxtr signals.
+Adc0SelfDiag0               	Cannot match name to list of known Nxtr signals.
+Adc0SelfDiag2               	Cannot match name to list of known Nxtr signals.
+Adc0SelfDiag4               	Cannot match name to list of known Nxtr signals.
+FastLoopCntr                	Cannot match name to list of known Nxtr signals.
+MotAg0ErrReg                	Cannot match name to list of known Nxtr signals.
+MotAg0ParFltCnt             	Cannot match name to list of known Nxtr signals.
+MotAg0VltgFltCnt            	Cannot match name to list of known Nxtr signals.
+MotAg1ErrReg                	Cannot match name to list of known Nxtr signals.
+MotAg1ParFltCnt             	Cannot match name to list of known Nxtr signals.
+MotAg1VltgFltCnt            	Cannot match name to list of known Nxtr signals.
+MotAgCumvAlgndMrfRev        	Cannot match name to list of known Nxtr signals.
+PhaOnTiSumA                 	Cannot match name to list of known Nxtr signals.
+PhaOnTiSumB                 	Cannot match name to list of known Nxtr signals.
+PhaOnTiSumC                 	Cannot match name to list of known Nxtr signals.
+SlowLoopCntr                	Cannot match name to list of known Nxtr signals.
+(variables: 40, errors: 19)
+
+---------------------------------------
+INTER-RUNNABLE VARIABLES:	<Identity>
+---------------------------------------
+(variables: 0, errors: 0)
+
+------------------------------------
+CALIBRATIONS:	<ShoName><Identity>
+------------------------------------
+(variables: 0, errors: 0)
+
+----------------------------------------------
+IMPORTED CALIBRATIONS:	<ShoName><Identity>
+---------------------------------------------
+(variables: 0, errors: 0)
+
+-------------------------------------------
+NON-VOLATILE MEMORY:	<Identity>
+-------------------------------------------
+(variables: 0, errors: 0)
+
+------------------------------------------
+DISPLAY VARIABLES:	d<ShoName><Identity>
+------------------------------------------
+(variables: 0, errors: 0)
+
+-----------------------------------------------
+PER-INSTANCE MEMORY:	<Identity>
+-----------------------------------------------
+(variables: 0, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONSTANTS:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 0, errors: 0)
+
+-------------------------
+CSArguments:	<IDENTITY>
+---------------------------
+(variables: 0, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONFIGPARAM:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 0, errors: 0)
+
+----------------------------
+NTC SIGNALS:	<Identity>
+----------------------------
+(variables: 0, errors: 0)
+
+------
+OTHER:
+------
+(variables: 0, errors: 0)
+ 
+************************
+Grand Totals:
+93 variables,  37 issues to fix.
+
+
+End of Report
